@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Privacy-safe public portfolio for Priyanshu Singh Yadav / PSYMONRAY",
-  "scripts": { "start": "serve -s . -l $PORT" },
+  "scripts": { "start": "serve -s . -l tcp://0.0.0.0:$PORT" },
   "dependencies": { "serve": "14.2.4" }
 }
